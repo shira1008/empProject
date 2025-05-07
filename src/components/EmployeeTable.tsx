@@ -4,6 +4,9 @@ import type { Employee } from '../types/types';
 const EmployeeTable = () => {
   const [employees, setEmployees] = useState<Employee[]>([]);
   const [error, setError] = useState<string>('');
+  const [currentPage, setCurrentPage] = useState<number>(1);
+
+  const employeesPerPage: number = 5;
 
   useEffect(() => {
     const fetchEmployees = async () => {
@@ -27,6 +30,19 @@ const EmployeeTable = () => {
     fetchEmployees();
   }, []);
 
+  // pangination
+  // **index of employee
+  const indexLast = currentPage * employeesPerPage;
+  const indexFirst = indexLast - employeesPerPage;
+  const currentEmployees = employees.slice(indexFirst, indexLast);
+  const totalPages = Math.ceil(employees.length / employeesPerPage);
+
+  const goToPage = (page: number) => {
+    if (page > 0 && page <= totalPages) {
+      setCurrentPage(page);
+    }
+  };
+
   return (
     <div className='table-container'>
       <h1>Employee Table</h1>
@@ -42,7 +58,7 @@ const EmployeeTable = () => {
           </tr>
         </thead>
         <tbody>
-          {employees.map((employee) => (
+          {currentEmployees.map((employee) => (
             <tr key={employee.id}>
               <td>{employee.name}</td>
               <td>{employee.id}</td>
@@ -61,6 +77,35 @@ const EmployeeTable = () => {
           ))}
         </tbody>
       </table>
+      <div className='pagination'>
+        {/* previous arrow */}
+        <button
+          onClick={() => goToPage(currentPage - 1)}
+          disabled={currentPage === 1}
+        >
+          &lt;
+        </button>
+
+        {/* Page Numbers */}
+        {totalPages > 1 &&
+          [...Array(totalPages)].map((_, index) => (
+            <button
+              key={index}
+              onClick={() => goToPage(index + 1)}
+              className={currentPage === index + 1 ? 'active' : ''}
+            >
+              {index + 1}
+            </button>
+          ))}
+
+        {/* next arrow */}
+        <button
+          onClick={() => goToPage(currentPage + 1)}
+          disabled={currentPage === totalPages}
+        >
+          &gt;
+        </button>
+      </div>
     </div>
   );
 };
