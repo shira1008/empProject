@@ -45,14 +45,14 @@ const EmployeeTable = () => {
 
   return (
     <div className='table-container'>
-      <h1>Employee Table</h1>
       {error && <p style={{ color: 'red' }}>{error}</p>}
       <table className='employee-table'>
         <thead>
           <tr>
+            <th></th>
             <th>Name</th>
             <th>ID</th>
-            <th>Photo</th>
+
             <th>Email</th>
             <th>Department</th>
           </tr>
@@ -60,15 +60,16 @@ const EmployeeTable = () => {
         <tbody>
           {currentEmployees.map((employee) => (
             <tr key={employee.id}>
-              <td>{employee.name}</td>
-              <td>{employee.id}</td>
               <td>
                 <img
+                  className='emp-img'
                   src={employee.photo}
                   alt={employee.name}
-                  style={{ width: '40px', height: '40px', borderRadius: '50%' }}
                 />
               </td>
+              <td>{employee.name}</td>
+              <td>{employee.id}</td>
+
               <td>
                 <a href={`mailto:${employee.email}`}>{employee.email}</a>
               </td>
