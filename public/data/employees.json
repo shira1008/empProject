@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/women/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Tom Brown",
+    "email": "tom.brown@example.com",
+    "department": "Sales",
+    "photo": "https://randomuser.me/api/portraits/men/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Lisa White",
+    "email": "lisa.white@example.com",
+    "department": "HR",
+    "photo": "https://randomuser.me/api/portraits/women/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "James Clark",
+    "email": "james.clark@example.com",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Maria Garcia",
+    "email": "maria.garcia@example.com",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/women/6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "David Lee",
+    "email": "david.lee@example.com",
+    "department": "Sales",
+    "photo": "https://randomuser.me/api/portraits/men/7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Patricia Young",
+    "email": "patricia.young@example.com",
+    "department": "HR",
+    "photo": "https://randomuser.me/api/portraits/women/8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Michael King",
+    "email": "michael.king@example.com",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/men/9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Susan Harris",
+    "email": "susan.harris@example.com",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/women/10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Robert Hall",
+    "email": "robert.hall@example.com",
+    "department": "Sales",
+    "photo": "https://randomuser.me/api/portraits/men/11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Linda Allen",
+    "email": "linda.allen@example.com",
+    "department": "HR",
+    "photo": "https://randomuser.me/api/portraits/women/12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "William Nelson",
+    "email": "william.nelson@example.com",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/men/13.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Elizabeth Carter",
+    "email": "elizabeth.carter@example.com",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/women/14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Joseph Martinez",
+    "email": "joseph.martinez@example.com",
+    "department": "Sales",
+    "photo": "https://randomuser.me/api/portraits/men/15.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Sarah Wilson",
+    "email": "sarah.wilson@example.com",
+    "department": "HR",
+    "photo": "https://randomuser.me/api/portraits/women/16.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Charles Moore",
+    "email": "charles.moore@example.com",
+    "department": "Engineering",
+    "photo": "https://randomuser.me/api/portraits/men/17.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Jessica Taylor",
+    "email": "jessica.taylor@example.com",
+    "department": "Marketing",
+    "photo": "https://randomuser.me/api/portraits/women/18.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Thomas Scott",
+    "email": "thomas.scott@example.com",
+    "department": "Sales",
+    "photo": "https://randomuser.me/api/portraits/men/19.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Nancy Davis",
+    "email": "nancy.davis@example.com",
+    "department": "HR",
+    "photo": "https://randomuser.me/api/portraits/women/20.jpg"
+  }
+]
