@@ -5,7 +5,9 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
     <div className='navbar'>
-      <div className='logo'>Employees</div>
+      <div className='logo'>
+        <span className='material-symbols-outlined'>account_circle</span>
+      </div>
 
       <div className={`nav-links ${isOpen ? 'open' : ''}`}>
         <a href='#'>Home</a>

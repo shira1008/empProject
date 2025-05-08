@@ -14,7 +14,7 @@ const EmployeeTable = () => {
       try {
         const response = await fetch('/data/employees.json');
         if (!response.ok) {
-          throw new Error('Error noo');
+          throw new Error('Error - response is not ok');
         }
         const data: Employee[] = await response.json();
         setEmployees(data);
@@ -54,7 +54,6 @@ const EmployeeTable = () => {
               <th></th>
               <th>Name</th>
               <th>ID</th>
-
               <th>Email</th>
               <th>Department</th>
             </tr>
