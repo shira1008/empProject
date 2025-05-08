@@ -102,14 +102,15 @@ body {
 }
 
 /* dark  */
-.navbar.light {
-  background-color: transparent;
-  color: #000;
-}
 
-.navbar.dark {
+body.dark .navbar {
   background-color: #333;
   color: #fff;
+}
+
+body.light .navbar {
+  background-color: transparent;
+  color: #000;
 }
 
 .theme-toggle {

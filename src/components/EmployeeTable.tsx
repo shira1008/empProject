@@ -47,9 +47,7 @@ const EmployeeTable = () => {
   };
 
   return (
-    <div className={`table-container ${theme}`}>
-      {' '}
-      {/*theme class to table container */}
+    <div className='table-container'>
       {error && <p style={{ color: 'red' }}>{error}</p>}
       <div className='table-wrapper'>
         <table className='employee-table responsive-table'>

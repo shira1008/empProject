@@ -170,57 +170,59 @@ h1 {
 .theme-toggle-2 {
   padding: 10px 20px;
   margin-top: 20px;
-  background-color: #007bff;
   color: white;
   border: none;
   cursor: pointer;
   font-size: 16px;
 }
 
-.theme-toggle-2:hover {
-  background-color: #0056b3;
-}
-
-.table-container .dark .table-wrapper {
-  background-color: black;
-}
-
-.table-container.dark .table-wrapper {
+body.dark {
   background-color: black;
   color: white;
 }
 
-.table-container.dark th,
-.table-container.dark td {
-  color: white;
-}
-
-.table-container.dark .employee-table {
+body.dark .theme-toggle-2 {
   background-color: #333;
+  color: white;
 }
 
-.table-container.dark thead {
-  background-color: #444;
+/*dark theme */
+body.dark .table-container {
+  background-color: black;
 }
 
-.table-container.dark .pagination button {
-  background-color: #444;
+body.dark .table-container .table-wrapper {
+  background-color: black;
+  color: white;
+}
+
+body.dark .table-container th,
+body.dark .table-container td {
+  color: white;
+}
+
+body.dark .table-container .employee-table {
+  background-color: var(--text-color);
+}
+
+body.dark .table-container thead {
+  background-color: var(--text-color);
+}
+
+body.dark .table-container .pagination button {
+  background-color: var(--text-color);
   color: #fff;
 }
 
-.table-container.dark .pagination button:hover {
-  background-color: #555;
+body.dark .table-container .pagination button:hover {
+  background-color: var(--text-color);
 }
 
-.table-container.dark .pagination button.active {
+body.dark .table-container .pagination button.active {
   color: white;
 }
 
 /* Dark links */
-.table-container.dark a {
+body.dark .table-container a {
   color: #ddd;
-}
-
-.table-container.dark a:hover {
-  color: #ffbb33;
 }
