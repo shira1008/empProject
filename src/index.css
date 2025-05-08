@@ -1,14 +1,15 @@
 /*variables for colors and base styles */
 :root {
-  --primary-color: #5a3d88;
-  --secondary-color: #e0bbe3;
+  --primary-color: #c2bbfb;
+  --secondary-color: #897af5;
+
   --background-color: #f3f3f3;
-  --table-header-bg: #e6e6f7;
+  --table-header-bg: #f9f9fa;
   --table-row-hover-bg: #f9e6ff;
   --text-color: #333333;
   --link-color: #5a3d88;
   --link-hover-color: #9b67d4;
-  --table-border-color: #e0bbe3;
+  --table-border-color: #f9eafa;
   --table-padding: 20px 15px;
   --font-family: 'Arial', sans-serif;
   --light: #f0f0f0;
@@ -27,4 +28,36 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   padding: 20px;
+}
+
+/* shapes */
+
+#triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 200px solid var(--primary-color);
+  border-left: 300px solid transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 200px solid var(--primary-color);
+  border-right: 300px solid transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 900px) {
+  #triangle-bottomleft {
+    display: none;
+  }
+
+  #triangle-topright {
+    display: none;
+  }
 }

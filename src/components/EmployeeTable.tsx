@@ -47,45 +47,47 @@ const EmployeeTable = () => {
   return (
     <div className='table-container'>
       {error && <p style={{ color: 'red' }}>{error}</p>}
-      <table className='employee-table'>
-        <thead>
-          <tr>
-            <th></th>
-            <th>Name</th>
-            <th>ID</th>
+      <div className='table-wrapper'>
+        <table className='employee-table responsive-table'>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Name</th>
+              <th>ID</th>
 
-            <th>Email</th>
-            <th>Department</th>
-          </tr>
-        </thead>
-        <tbody>
-          {currentEmployees.map((employee) => (
-            <tr key={employee.id}>
-              <td>
-                <img
-                  className='emp-img'
-                  src={employee.photo}
-                  alt={employee.name}
-                />
-              </td>
-              <td>{employee.name}</td>
-              <td>{employee.id}</td>
-
-              <td>
-                <a href={`mailto:${employee.email}`}>{employee.email}</a>
-              </td>
-              <td>{employee.department}</td>
+              <th>Email</th>
+              <th>Department</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {currentEmployees.map((employee) => (
+              <tr key={employee.id}>
+                <td>
+                  <img
+                    className='emp-img'
+                    src={employee.photo}
+                    alt={employee.name}
+                  />
+                </td>
+                <td>{employee.name}</td>
+                <td>{employee.id}</td>
+
+                <td>
+                  <a href={`mailto:${employee.email}`}>{employee.email}</a>
+                </td>
+                <td>{employee.department}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
       <div className='pagination'>
         {/* previous arrow */}
         <button
           onClick={() => goToPage(currentPage - 1)}
           disabled={currentPage === 1}
         >
-          &lt;
+          <span className='material-icons'>chevron_left</span>
         </button>
 
         {/* Page Numbers */}
@@ -105,7 +107,7 @@ const EmployeeTable = () => {
           onClick={() => goToPage(currentPage + 1)}
           disabled={currentPage === totalPages}
         >
-          &gt;
+          <span className='material-icons'>chevron_right</span>
         </button>
       </div>
     </div>
