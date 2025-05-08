@@ -82,7 +82,7 @@ h1 {
 .pagination {
   display: flex;
   justify-content: center;
-  padding-top: 1rem;
+  padding-top: 0.8rem;
 }
 
 .pagination button {
