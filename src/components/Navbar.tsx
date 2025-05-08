@@ -21,14 +21,14 @@ const Navbar = () => {
         <a href='#'>Contact</a>
       </div>
 
-      <div className='menu-icon' onClick={() => setIsOpen(!isOpen)}>
-        <span className='material-icons'>menu</span>
-      </div>
-
       {/* Add a button to toggle the theme */}
       <button className='theme-toggle' onClick={toggleTheme}>
         {theme === 'light' ? '🌙 Dark' : '🌞 Light'}
       </button>
+
+      <div className='menu-icon' onClick={() => setIsOpen(!isOpen)}>
+        <span className='material-icons'>menu</span>
+      </div>
     </div>
   );
 };

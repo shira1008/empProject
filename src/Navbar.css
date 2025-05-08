@@ -67,6 +67,8 @@ body {
   .menu-icon {
     display: block;
     z-index: 1001;
+    font-size: 50px;
+    margin-left: 1rem;
   }
 
   .nav-links {
@@ -104,7 +106,6 @@ body {
 /* dark  */
 
 body.dark .navbar {
-  background-color: #333;
   color: #fff;
 }
 

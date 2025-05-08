@@ -226,3 +226,7 @@ body.dark .table-container .pagination button.active {
 body.dark .table-container a {
   color: #ddd;
 }
+
+body.dark .responsive-table tr {
+  background-color: black;
+}
