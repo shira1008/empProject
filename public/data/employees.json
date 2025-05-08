@@ -1,142 +1,142 @@
 [
   {
     "id": 1,
-    "name": "John Doe",
-    "email": "john.doe@example.com",
+    "name": "Jhon Green",
+    "email": "jhon.green@example.com",
     "department": "Engineering",
-    "photo": "https://randomuser.me/api/portraits/men/1.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=John"
   },
   {
     "id": 2,
-    "name": "Jane Smith",
-    "email": "jane.smith@example.com",
+    "name": "Emma Brown",
+    "email": "emma.brown@example.com",
     "department": "Marketing",
-    "photo": "https://randomuser.me/api/portraits/women/2.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=Sophia"
   },
   {
     "id": 3,
-    "name": "Tom Brown",
-    "email": "tom.brown@example.com",
+    "name": "Daniel Evans",
+    "email": "daniel.evans@example.com",
     "department": "Sales",
-    "photo": "https://randomuser.me/api/portraits/men/3.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=John"
   },
   {
     "id": 4,
-    "name": "Lisa White",
-    "email": "lisa.white@example.com",
+    "name": "Olivia Hill",
+    "email": "olivia.hill@example.com",
     "department": "HR",
-    "photo": "https://randomuser.me/api/portraits/women/4.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=Sophia"
   },
   {
     "id": 5,
-    "name": "James Clark",
-    "email": "james.clark@example.com",
+    "name": "Benjamin Adams",
+    "email": "benjamin.adams@example.com",
     "department": "Engineering",
-    "photo": "https://randomuser.me/api/portraits/men/5.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=John"
   },
   {
     "id": 6,
-    "name": "Maria Garcia",
-    "email": "maria.garcia@example.com",
+    "name": "Chloe Walker",
+    "email": "chloe.walker@example.com",
     "department": "Marketing",
-    "photo": "https://randomuser.me/api/portraits/women/6.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=Sophia"
   },
   {
     "id": 7,
-    "name": "David Lee",
-    "email": "david.lee@example.com",
+    "name": "Samuel Wright",
+    "email": "samuel.wright@example.com",
     "department": "Sales",
-    "photo": "https://randomuser.me/api/portraits/men/7.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=John"
   },
   {
     "id": 8,
-    "name": "Patricia Young",
-    "email": "patricia.young@example.com",
+    "name": "Ava Baker",
+    "email": "ava.baker@example.com",
     "department": "HR",
-    "photo": "https://randomuser.me/api/portraits/women/8.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=Sophia"
   },
   {
     "id": 9,
-    "name": "Michael King",
-    "email": "michael.king@example.com",
+    "name": "Henry Turner",
+    "email": "henry.turner@example.com",
     "department": "Engineering",
-    "photo": "https://randomuser.me/api/portraits/men/9.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=John"
   },
   {
     "id": 10,
-    "name": "Susan Harris",
-    "email": "susan.harris@example.com",
+    "name": "Lily Cooper",
+    "email": "lily.cooper@example.com",
     "department": "Marketing",
-    "photo": "https://randomuser.me/api/portraits/women/10.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=Sophia"
   },
   {
     "id": 11,
-    "name": "Robert Hall",
-    "email": "robert.hall@example.com",
+    "name": "Noah Bell",
+    "email": "noah.bell@example.com",
     "department": "Sales",
-    "photo": "https://randomuser.me/api/portraits/men/11.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=Sophia"
   },
   {
     "id": 12,
-    "name": "Linda Allen",
-    "email": "linda.allen@example.com",
+    "name": "Sophia Ward",
+    "email": "sophia.ward@example.com",
     "department": "HR",
-    "photo": "https://randomuser.me/api/portraits/women/12.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=Sophia"
   },
   {
     "id": 13,
-    "name": "William Nelson",
-    "email": "william.nelson@example.com",
+    "name": "Logan Cox",
+    "email": "logan.cox@example.com",
     "department": "Engineering",
-    "photo": "https://randomuser.me/api/portraits/men/13.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=John"
   },
   {
     "id": 14,
-    "name": "Elizabeth Carter",
-    "email": "elizabeth.carter@example.com",
+    "name": "Mia Morris",
+    "email": "mia.morris@example.com",
     "department": "Marketing",
-    "photo": "https://randomuser.me/api/portraits/women/14.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=Sophia"
   },
   {
     "id": 15,
-    "name": "Joseph Martinez",
-    "email": "joseph.martinez@example.com",
+    "name": "Lucas Rogers",
+    "email": "lucas.rogers@example.com",
     "department": "Sales",
-    "photo": "https://randomuser.me/api/portraits/men/15.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=John"
   },
   {
     "id": 16,
-    "name": "Sarah Wilson",
-    "email": "sarah.wilson@example.com",
+    "name": "Amelia Reed",
+    "email": "amelia.reed@example.com",
     "department": "HR",
-    "photo": "https://randomuser.me/api/portraits/women/16.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=Sophia"
   },
   {
     "id": 17,
-    "name": "Charles Moore",
-    "email": "charles.moore@example.com",
+    "name": "Jack Cook",
+    "email": "jack.cook@example.com",
     "department": "Engineering",
-    "photo": "https://randomuser.me/api/portraits/men/17.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=John"
   },
   {
     "id": 18,
-    "name": "Jessica Taylor",
-    "email": "jessica.taylor@example.com",
+    "name": "Ella Morgan",
+    "email": "ella.morgan@example.com",
     "department": "Marketing",
-    "photo": "https://randomuser.me/api/portraits/women/18.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=Sophia"
   },
   {
     "id": 19,
-    "name": "Thomas Scott",
-    "email": "thomas.scott@example.com",
+    "name": "Ethan Bailey",
+    "email": "ethan.bailey@example.com",
     "department": "Sales",
-    "photo": "https://randomuser.me/api/portraits/men/19.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=John"
   },
   {
     "id": 20,
-    "name": "Nancy Davis",
-    "email": "nancy.davis@example.com",
+    "name": "Isabella Rivera",
+    "email": "isabella.rivera@example.com",
     "department": "HR",
-    "photo": "https://randomuser.me/api/portraits/women/20.jpg"
+    "photo": "https://api.dicebear.com/7.x/micah/png?seed=Sophia"
   }
 ]

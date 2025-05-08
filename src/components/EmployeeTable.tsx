@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import type { Employee } from '../types/types';
+import '../Table.css';
 
 const EmployeeTable = () => {
   const [employees, setEmployees] = useState<Employee[]>([]);
