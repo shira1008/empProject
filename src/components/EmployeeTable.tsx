@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react';
+import { useTheme } from '../ThemeContext';
 import type { Employee } from '../types/types';
 import '../Table.css';
 
 const EmployeeTable = () => {
+  const { theme, toggleTheme } = useTheme();
   const [employees, setEmployees] = useState<Employee[]>([]);
   const [error, setError] = useState<string>('');
   const [currentPage, setCurrentPage] = useState<number>(1);
@@ -45,7 +47,9 @@ const EmployeeTable = () => {
   };
 
   return (
-    <div className='table-container'>
+    <div className={`table-container ${theme}`}>
+      {' '}
+      {/*theme class to table container */}
       {error && <p style={{ color: 'red' }}>{error}</p>}
       <div className='table-wrapper'>
         <table className='employee-table responsive-table'>
@@ -70,7 +74,6 @@ const EmployeeTable = () => {
                 </td>
                 <td>{employee.name}</td>
                 <td>{employee.id}</td>
-
                 <td>
                   <a href={`mailto:${employee.email}`}>{employee.email}</a>
                 </td>
@@ -107,6 +110,11 @@ const EmployeeTable = () => {
           disabled={currentPage === totalPages}
         >
           <span className='material-icons'>chevron_right</span>
+        </button>
+
+        {/* Button to toggle theme */}
+        <button className='theme-toggle-2' onClick={toggleTheme}>
+          {theme === 'light' ? '🌙' : '🌞'}
         </button>
       </div>
     </div>

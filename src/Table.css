@@ -164,3 +164,63 @@ h1 {
     flex-wrap: wrap;
   }
 }
+
+/* dark */
+
+.theme-toggle-2 {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.theme-toggle-2:hover {
+  background-color: #0056b3;
+}
+
+.table-container .dark .table-wrapper {
+  background-color: black;
+}
+
+.table-container.dark .table-wrapper {
+  background-color: black;
+  color: white;
+}
+
+.table-container.dark th,
+.table-container.dark td {
+  color: white;
+}
+
+.table-container.dark .employee-table {
+  background-color: #333;
+}
+
+.table-container.dark thead {
+  background-color: #444;
+}
+
+.table-container.dark .pagination button {
+  background-color: #444;
+  color: #fff;
+}
+
+.table-container.dark .pagination button:hover {
+  background-color: #555;
+}
+
+.table-container.dark .pagination button.active {
+  color: white;
+}
+
+/* Dark links */
+.table-container.dark a {
+  color: #ddd;
+}
+
+.table-container.dark a:hover {
+  color: #ffbb33;
+}
