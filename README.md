@@ -1,7 +1,11 @@
 # Employee Management Project
 
-A responsive React + TypeScript app to display employee data.  
+A responsive React + TypeScript app to display employee data.
 I used a JSON file to simulate an API fetch for the data :)
+
+I wrapped the API fetch with a try/catch block to handle errors, inside a useEffect with [], so the data fetch happens a single time and doesn’t repeat on every render.
+
+I used states to handle the error message, the current employee to display, track the current page for pagination, and to control the navbar class depending on the screen size.
 
 
 ## 📸 Screenshots
