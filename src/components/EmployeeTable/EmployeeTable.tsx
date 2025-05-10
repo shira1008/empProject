@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { useTheme } from '../../contexts/ThemeContext';
 import type { Employee } from '../../types/types';
 import './Table.css';
@@ -47,6 +47,21 @@ const EmployeeTable = () => {
     }
   };
 
+  // for memoization to prevent unnecessary recalculations during re-renders
+  const paginationButtons = useMemo(() => {
+    if (totalPages <= 1) return null;
+
+    return [...Array(totalPages)].map((_, index) => (
+      <button
+        key={index}
+        onClick={() => goToPage(index + 1)}
+        className={currentPage === index + 1 ? 'active' : ''}
+      >
+        {index + 1}
+      </button>
+    ));
+  }, [totalPages, currentPage]);
+
   return (
     <div className='table-container'>
       {error && <p style={{ color: 'red' }}>{error}</p>}
@@ -92,16 +107,7 @@ const EmployeeTable = () => {
         </button>
 
         {/* Page Numbers */}
-        {totalPages > 1 &&
-          [...Array(totalPages)].map((_, index) => (
-            <button
-              key={index}
-              onClick={() => goToPage(index + 1)}
-              className={currentPage === index + 1 ? 'active' : ''}
-            >
-              {index + 1}
-            </button>
-          ))}
+        {paginationButtons}
 
         {/* next arrow */}
         <button
