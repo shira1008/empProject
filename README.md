@@ -22,3 +22,11 @@ To apply the theme globally, I used useEffect to add or remove the dark class on
 
 ## Dark:
 ![image](https://github.com/user-attachments/assets/105c598e-ba57-4291-9cb2-01b20e9c0096)
+
+## 🚀How To Run
+
+```bash
+git clone https://github.com/shira1008/empProject.git
+cd empProject
+npm install
+npm run dev
