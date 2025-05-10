@@ -1,6 +1,6 @@
-import EmployeeTable from './components/EmployeeTable';
-import Navbar from './components/Navbar';
-import { ThemeProvider } from './ThemeContext';
+import EmployeeTable from './components/EmployeeTable/EmployeeTable';
+import Navbar from './components/Navbar/Navbar';
+import { ThemeProvider } from './contexts/ThemeContext';
 
 function App() {
   return (

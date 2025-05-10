@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { useTheme } from '../ThemeContext';
-import type { Employee } from '../types/types';
-import '../Table.css';
+import { useTheme } from '../../contexts/ThemeContext';
+import type { Employee } from '../../types/types';
+import './Table.css';
 
 const EmployeeTable = () => {
   const { theme, toggleTheme } = useTheme();

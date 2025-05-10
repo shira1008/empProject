@@ -1,6 +1,6 @@
-import '../Navbar.css';
+import './Navbar.css';
 import { useState } from 'react';
-import { useTheme } from '../ThemeContext';
+import { useTheme } from '../../contexts/ThemeContext';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
