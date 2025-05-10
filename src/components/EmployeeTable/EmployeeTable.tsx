@@ -9,7 +9,8 @@ const EmployeeTable = () => {
   const [error, setError] = useState<string>('');
   const [currentPage, setCurrentPage] = useState<number>(1);
 
-  const employeesPerPage: number = 5;
+  const EMPLOYEES_PER_PAGE = 5;
+  const employeesPerPage: number = EMPLOYEES_PER_PAGE;
 
   useEffect(() => {
     const fetchEmployees = async () => {
