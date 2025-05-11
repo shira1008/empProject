@@ -6,11 +6,9 @@ import Background from './components/BackgroundIllustration/BackgroundIllustrati
 function App() {
   return (
     <ThemeProvider>
-      <>
-        <Background />
-        <Navbar />
-        <EmployeeTable />
-      </>
+      <Background />
+      <Navbar />
+      <EmployeeTable />
     </ThemeProvider>
   );
 }

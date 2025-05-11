@@ -72,20 +72,22 @@ body {
   }
 
   .nav-links {
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
     top: 100%;
     right: 0;
-    width: 20%;
+    width: 100%;
     background-color: var(--primary-color);
     gap: 1rem;
     padding: 1rem 0;
+    transform: translateY(-200%);
+    transition: transform 0.3s ease-in-out;
   }
 
   .nav-links.open {
-    display: flex;
+    transform: translateY(0);
   }
 
   .nav-links a {
