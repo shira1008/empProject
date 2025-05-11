@@ -60,3 +60,16 @@ body {
     display: none;
   }
 }
+
+.theme-toggle-3 {
+  position: absolute;
+  bottom: -160px;
+  left: 45px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  background-color: transparent;
+}

@@ -1,10 +1,8 @@
 import { useEffect, useState, useMemo } from 'react';
-import { useTheme } from '../../contexts/ThemeContext';
 import type { Employee } from '../../types/types';
 import './Table.css';
 
 const EmployeeTable = () => {
-  const { theme, toggleTheme } = useTheme();
   const [employees, setEmployees] = useState<Employee[]>([]);
   const [error, setError] = useState<string>('');
   const [currentPage, setCurrentPage] = useState<number>(1);
@@ -115,11 +113,6 @@ const EmployeeTable = () => {
           disabled={currentPage === totalPages}
         >
           <span className='material-icons'>chevron_right</span>
-        </button>
-
-        {/* Button to toggle theme */}
-        <button className='theme-toggle-2' onClick={toggleTheme}>
-          {theme === 'light' ? '🌙' : '🌞'}
         </button>
       </div>
     </div>
