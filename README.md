@@ -15,13 +15,17 @@ To apply the theme globally, I used useEffect to add or remove the dark class on
 ## 📸 Screenshots
 
 ### 🖥 Desktop View
-![image](https://github.com/user-attachments/assets/bfeb2bc4-ccf7-48d6-8299-fcab4e00483b)
+![image](https://github.com/user-attachments/assets/7c487787-8d9a-42c2-b7db-22c1819649ba)
+
 
 ### 📱 Small screens View
 ![image](https://github.com/user-attachments/assets/3f8fbba0-3dcf-475c-b249-dc6adb2ae88a)
+![image](https://github.com/user-attachments/assets/268e26b5-747e-4784-8f7e-8563e0836b2d)
+
 
 ## Dark:
-![image](https://github.com/user-attachments/assets/105c598e-ba57-4291-9cb2-01b20e9c0096)
+![image](https://github.com/user-attachments/assets/061b3af1-756d-456e-8a47-720183f4fbe2)
+
 
 ## 🚀How To Run
 
