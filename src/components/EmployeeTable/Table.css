@@ -63,6 +63,8 @@ a:hover {
 
 .employee-table {
   margin: 0 auto;
+  table-layout: fixed; /* Enforces fixed column sizes */
+  width: 100%;
 }
 
 h1 {
@@ -229,4 +231,19 @@ body.dark .table-container a {
 
 body.dark .responsive-table tr {
   background-color: black;
+}
+
+.employee-table th,
+.employee-table td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px; /* adjust as needed */
+  font-size: 14px;
 }

@@ -88,7 +88,7 @@ const EmployeeTable = () => {
                 </td>
                 <td>{employee.name}</td>
                 <td>{employee.id}</td>
-                <td>
+                <td title={employee.email}>
                   <a href={`mailto:${employee.email}`}>{employee.email}</a>
                 </td>
                 <td>{employee.department}</td>
